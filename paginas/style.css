@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200;300;400;500;600;800&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --cor01: #225A76;
+    --cor02: #3FCEF6;
+    --cor03: #318EAD;
+    --cor04: #A7E7F6;
+    --cor05: #EFF1F3;
+
+    --fonte-grande:'Rubik Mono One', monospace;
+    --fonte-media:'Sometype Mono', monospace;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonte-media);
+    font-weight: normal;
+}
