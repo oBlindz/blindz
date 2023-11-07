@@ -81,7 +81,7 @@ main {
     height: 9rem;
     display: flex;
     overflow-x: auto;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .produtos {
