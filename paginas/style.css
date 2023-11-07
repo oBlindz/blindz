@@ -69,7 +69,7 @@ main {
 
 .banner-principal {
     background-color: var(--cor01);
-    margin-bottom: 0px;
+    margin-bottom: 2em;
     max-width: 1000px;
 }
 
@@ -90,7 +90,7 @@ main {
     background-color: #225A76;
     padding-bottom: 1em;
     max-width: 100%;
-    height: 14rem;
+    max-height: 14rem;
     display: flex;
     overflow-x: auto;
 }
