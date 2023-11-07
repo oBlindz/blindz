@@ -81,7 +81,10 @@ main {
     height: 9rem;
     display: flex;
     overflow-x: auto;
-    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .produtos {
