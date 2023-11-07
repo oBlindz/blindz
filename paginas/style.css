@@ -87,7 +87,7 @@ main {
 .counteiner-produtos {
     background-color: #225A76;
     width: 100%;
-    height: 15rem;
+    height: 9rem;
     display: flex;
     overflow-x: auto;
 }
@@ -98,7 +98,7 @@ main {
 
 .produtos {
     max-width: 20rem;
-    max-height: 20rem;
+    max-height: 12rem;
     margin-left: 1rem;
     margin-right: 1rem;
 }
