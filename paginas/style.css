@@ -67,40 +67,42 @@ main {
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.267);
 }
 
-.banner-principal {
+.principal {
+    background-image: url('../imagens/banners/Mousepads.png');
+    background-position: center center;
     background-color: var(--cor01);
-    margin-bottom: 2em;
-    max-width: 1000px;
+    margin-bottom: 2px;
+    width: 100%;
+    height: 200px;
 }
 
-.banner-principal > img{
-    max-width: 100%;
-}
 
 .banners {
     margin-bottom: 2rem;
     margin-top: 4rem;
 }
 
-.banners > img {
-    max-width: 100%;
-}
 
 .counteiner-produtos {
+    background-color: #225A76;
+    padding-top: 0.5em;
     padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     max-width: 100%;
-    max-height: 14rem;
-    display: flex;
+    height: 300px;
     overflow-x: auto;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .produtos {
-    margin-top: 0.5em;
-    max-width: 12rem;
-    max-height: 14rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24);
+    background-color: #3FCEF6;
+    height: 100%;
+    width: 80px;
+    display: inline-block;
 }
 
 footer {
