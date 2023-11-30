@@ -9,7 +9,8 @@
 footer {
     background-color: black;
     color: white;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-top: 5px solid rgb(118, 118, 187);
 }
 
@@ -38,7 +39,8 @@ ul {
 }
 
 .col {
-    padding-left: 15px;
+    padding-left:  7.5px;
+    padding-right: 7.5px;
 }
 
 ul>p.destaque {
