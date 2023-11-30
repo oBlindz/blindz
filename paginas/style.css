@@ -1,4 +1,10 @@
 @charset "UTF-8";
+:root {
+    --cor01: #7676bb;
+    --cor02: #a7a7ff;
+    --cor03: #545485;
+    --cor04: #31314d;
+}
 
 * {
     margin: 0px;
@@ -11,12 +17,16 @@ footer {
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-top: 5px solid rgb(118, 118, 187);
+    border-top: 5px solid #7676bb;
 }
 
-footer ul > li > a {
+footer ul > li > a, abbr {
     color: white;
     text-decoration: none;
+}
+footer ul > li > a:hover {
+    color: var(--cor03);
+    text-decoration: underline;
 }
 
 .countainer {
@@ -44,5 +54,6 @@ ul {
 }
 
 ul>p.destaque {
-    color: yellow;
+    color: var(--cor02);
+    font-weight: bolder;
 }
