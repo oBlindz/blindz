@@ -1,0 +1,47 @@
+@charset "UTF-8";
+:root {
+    --cor01: #7676bb;
+    --cor02: #a7a7ff;
+    --cor03: #545485;
+    --cor04: #31314d;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Area do footer */
+.container-footer {
+    display: grid;
+    padding-top: 5px;
+    height: 78px;
+    width: 100vw;
+    background-color: var(--cor04);
+    grid-template-columns: 90px 120px 70px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.footer {
+    color: var(--cor02);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.container-footer a {
+    text-decoration: none;
+    color: var(--cor01);
+}
+
+.container-footer a:hover {
+    text-decoration: underline;
+    color: var(--cor02);
+    font-weight: bold;
+    font-size: 0.95em;
+}
+
+.sobre-mim p, .servicos p, .redes-sociais p {
+    text-align: center;
+}
