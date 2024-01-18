@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
 /* Fazer o media query */
-@media screen (max-width 300px) {
+@media screen and (max-width: 300px){
+    body {
+        background-color: purple;
+    }
 }
