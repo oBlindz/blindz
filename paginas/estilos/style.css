@@ -11,37 +11,77 @@
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+main {
+    margin: auto;
+    max-width: 1000px;
+}
+
+
+/* Area jogos banners */
+#container-para-container-jogos {
+    display: flex;
+    width: 100%;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+}
+#container-jogos {
+    display: grid;
+    grid-template-columns: 140px 140px;
+    grid-template-rows: 200px;
+    gap: 4px;
+    justify-content: center;
+    /*  background-color: white; 
+        padding: 10px 10px;
+    */
+    border-radius: 5px;
+    margin: 5px;
+}
+#jogo-valorant {
+    background-color: var(--cor01);
+    border-radius: 5px;
+    border: 2px solid #00000075;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.432);
+}
+#jogo-standoff2 {
+    background-color: var(--cor01);
+    border-radius: 5px;
+    border: 2px solid #00000075;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.432);
+}
+
 
 /* Area do footer */
 .container-footer {
     display: grid;
-    padding-top: 5px;
-    height: 78px;
+    padding-bottom: 2px;
+    height: 60px;
     width: 100vw;
     background-color: var(--cor04);
-    grid-template-columns: 90px 120px 70px;
-    gap: 10px;
+    grid-template-columns: 85px 85px 60px;
+    gap: 2px;
     justify-content: center;
+    align-items: center;
 }
-
 .footer {
     color: var(--cor02);
     font-weight: bolder;
     text-align: center;
 }
-
 .container-footer a {
     text-decoration: none;
     color: var(--cor01);
 }
-
 .container-footer a:hover {
     text-decoration: underline;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.226);
     color: var(--cor02);
     font-weight: bold;
     font-size: 0.95em;
 }
-
 .sobre-mim p, .servicos p, .redes-sociais p {
     text-align: center;
+}
+.footer-texto {
+    font-size: 10.5px;
 }
